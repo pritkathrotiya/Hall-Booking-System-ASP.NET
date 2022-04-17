@@ -1,0 +1,85 @@
+﻿/*Datatable Delete Edit Button CSS*/
+.button-custom {
+    width: 58px;
+    height: 30px;
+    font-size: 0.83em;
+}
+
+/*All Form Control*/
+.form-control:focus {
+    box-shadow: 0 0 0 0.1rem rgba(217,222,249,1);
+    border-color: rgba(217,222,249,1);
+}
+
+/*All Page Box Title*/
+.card-title {
+    font-size: 1.1rem;
+}
+
+/*Hall Photos Card*/
+.card-radius {
+    border-radius: 10px !important;
+}
+
+.image-radius {
+    border-top-left-radius: 10px !important;
+    border-top-right-radius: 10px !important;
+}
+
+.card-radius:hover {
+    transform: scale(1.01);
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.11) !important;
+}
+
+.shadow-custom {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important;
+}
+
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+}
+
+/*Hall Photo Edit*/
+.hover-shadow {
+    -webkit-box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.1rem 1rem rgba(0, 0, 0, 0.1);
+    -webkit-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+}
+
+.hover-shadow--hover:hover {
+    cursor: zoom-in;
+    -webkit-box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+@media screen and (max-width: 767px) {
+    .m-b-4 {
+        margin-bottom: 1.5rem;
+    }
+}
+
+/*Admin Home CSS*/
+.custom-font-size {
+    font-size: 1.05rem;
+}
+
+.custom-font-color {
+    color: #9b9b9b;
+}
+
+.custom-align-userImg {
+    text-align: center;
+    align-self: center;
+}
+
+@media only screen and (max-width: 767px) {
+    .h1-phone-view {
+        margin-top: 16px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,82 @@
+﻿/*Datatable Delete Edit Button CSS*/
+.button-custom {
+    width: 58px;
+    height: 30px;
+    font-size: 0.83em;
+}
+
+/*All Form Control*/
+.form-control:focus {
+    box-shadow: 0 0 0 0.1rem rgba(217,222,249,1);
+    border-color: rgba(217,222,249,1);
+}
+
+/*All Page Box Title*/
+.card-title {
+    font-size: 1.1rem;
+}
+
+.card-title-size {
+    font-size: 1rem;
+}
+
+/*All Shadow*/
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+}
+
+/*Hall Card Radius*/
+.card-radius {
+    border-radius: 10px !important;
+}
+
+    .card-radius:hover {
+        transform: scale(1.01);
+        box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.11) !important;
+    }
+
+/*User Home CSS*/
+.custom-font-size {
+    font-size: 1.05rem;
+}
+
+.custom-font-color {
+    color: #9b9b9b;
+}
+
+.custom-align-userImg {
+    text-align: center;
+    align-self: center;
+}
+
+@media only screen and (max-width: 767px) {
+    .h1-phone-view {
+        margin-top:16px;
+        text-align:center;
+    }
+}
+
+/*Contact us page*/
+.contact-heading {
+    font-size: 40px;
+    font-style: italic;
+}
+
+@media only screen and (max-width: 767px) {
+    .contact-heading {
+        font-size: 28px;
+    }
+}
+
+/*Display Flex*/
+.display{
+    display:flex;
+}
+
+/*Hall List Lable and DropDown*/
+.lable-left {
+    align-self: center;
+    margin: 0 10px 0px 0;
+    width: -webkit-fill-available;
+    max-width: fit-content;
+}
